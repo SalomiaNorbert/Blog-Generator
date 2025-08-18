@@ -41,7 +41,7 @@ def generate_text(prompt):
         print("Error:", response.status_code, response.text)
         return None
 
-# Example Usage
+
 blog_prompt = "Write a blog post about benefits of AI in healthcare, 200 words."
 blog_content = generate_text(blog_prompt)
 print("=== Blog Output ===")
